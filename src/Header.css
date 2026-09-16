@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgb(0, 0, 0);
+    color:  cornflowerblue;
+    border: 2px solid cornflowerblue;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0;
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+nav > a{
+    text-decoration: none;
+    color: aqua;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.link {
+    text-decoration: none; 
+    display: inline-block;
+    line-height: 1; 
+    color: cornflowerblue; 
+}
+
+.link::after {
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: cornflowerblue; 
+    transition: width 0.3s ease-in-out; 
+}
+
+.link:hover:after {
+    width: 100%; 
+}
+
+
+.link:hover {
+    color: rgb(0, 136, 255); 
+}
+
+img{
+    width: 50px;
+}
+
+body{
+    margin: 0;
+}

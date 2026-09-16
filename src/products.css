@@ -1,0 +1,19 @@
+.products{
+    width: 100%;
+}
+
+.card_products{
+    width: 200px;
+    height: 340px;
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card_image > img{
+    width: 180px;
+    height: 200px;
+}
